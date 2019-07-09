@@ -2,21 +2,21 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Counter from './components/counter/Counter'
+import ToDoApp from './components/todo/ToDoApp'
+
 function App() {
-  return (
-    <div className="App">
-      <Counter by = "1"/>
-      <Counter/>
-      <Counter by={5}/>
-      <Counter by={10}/>
+    return ( <
+        div className = "App" >
 
+        { /*<Counter />*/ } <
+        ToDoApp / >
 
-    </div>
-  );
+        <
+        /div>
+    );
 
 
 }
-
 
 
 export default App;
